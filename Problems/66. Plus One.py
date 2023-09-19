@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 class Solution:
-    def plusOne(self, digits: List[int]) -> List[int]:
+    def plusOne(self, digits):
         """
         map(str, array): Transform every element of the array into a string so we can use join.
         ''.join(...): Combine all the elements into one string
