@@ -12,7 +12,7 @@ class Solution:
         return not len(s)
         """
          Second approach. We use the same strings but is not necessary to update them:
-            i, j = 0, 0
+            i = j = 0
             while i < len(s) and j < len(t):
                 if s[i] == t[j]:
                     i += 1
