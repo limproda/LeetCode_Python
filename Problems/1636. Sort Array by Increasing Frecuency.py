@@ -2,6 +2,14 @@
 # -*- coding: utf-8 -*-
 
 class Solution:
+    
+    """
+        2nd aprroach
+        class Solution:
+            def frequencySort(self, nums: List[int]) -> List[int]:
+                return sorted(sorted(nums, reverse=1), key=nums.count)
+    """
+
     def frequencySort(self, nums):
         frequency = {}
         self.frequencyCounter(nums, frequency)
