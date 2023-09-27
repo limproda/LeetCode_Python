@@ -2,6 +2,15 @@
 # -*- coding: utf-8 -*-
 class Solution:
    def addSpaces(self, s, spaces):
+        """My solution causes TLE (Time Limit Exceeded). Better this solution:
+        res = ""
+        lastIdx = 0
+        for i in spaces:
+            res += s[lastIdx:i]
+            res += " "
+            lastIdx = i
+        res += s[lastIdx:]
+        return(res)"""
         new_s = ""
         for index, letter in enumerate(s):
             if index in spaces:
