@@ -14,7 +14,6 @@ class Solution:
                 return False
         return True
        
-
 def main():
     nums = [1,3,2]
     sol = Solution()
