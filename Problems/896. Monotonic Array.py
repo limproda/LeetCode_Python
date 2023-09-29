@@ -4,7 +4,7 @@ class Solution:
     def isMonotonic(self, nums):
         increasing = decreasing = True
 
-        for i in range(1, lens(n)):
+        for i in range(1, len(nums)):
             if nums[i] > nums[i-1]:
                 decreasing = False
             elif nums[i] < nums[i-1]:
