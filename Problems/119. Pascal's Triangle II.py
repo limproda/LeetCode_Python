@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 class Solution:
     def getRow(self, rowIndex):
-
         res = [1]
         if rowIndex == 0:
             return res
@@ -16,7 +15,6 @@ class Solution:
             new_row.append(1)
             res = new_row 
         return res
-
                 
 def main():
     rowIndex = 4
